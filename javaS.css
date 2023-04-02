@@ -1,0 +1,786 @@
+body{
+    font-family: sans-serif;
+}
+.div{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400px;
+    color: white;
+    background-color: #3472e1;
+}
+.div a{
+    text-decoration: none;
+    color: white;
+}
+.div a:hover{
+    text-decoration: underline;
+}
+.nav{
+    z-index: 100000000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu button:hover{
+    color:white;
+    background-color: purple;
+}
+.drops{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+.toggle{
+    display: none;
+    font-size: 25px;
+}
+.drops{
+    display: block;
+}
+.tog{
+    animation: rot 0.2s linear;
+}
+.tog2{
+    animation: rot2 0.2s linear;
+}
+@keyframes rot {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(90deg);
+    }
+}
+@keyframes rot2 {
+    0%{
+        transform: rotateZ(90deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+.container:first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding-top: 100px;
+}
+.sub-cont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cont1{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #707070;
+}
+.cont2{
+    color: rgb(29, 29, 73);
+    line-height: 70px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.cont3{
+    padding-top: 20px;
+    font-size:23px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 100;
+}
+.cont4{
+    padding-top: 20px;
+}
+.cont4  button a{
+    text-decoration: none;
+    color: black;
+}
+.cont4 button{
+    color: black;
+}
+.cont4 button:hover{
+    color: white;
+    background-color: purple;
+    transition: .8s;
+}
+.imgmark{
+    width: 50%;
+}
+.container:first-child .imgmark img{
+    width: 100%;
+}
+.container1{
+    padding-top: 80px;
+    padding-left: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+}
+.container1 h1{
+    color: rgb(29, 29, 73);
+    font-size: 50px;
+    width: 75%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.nim{
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+    padding-bottom: 50px;
+}
+.container1 p{
+    padding-top: 20px;
+    font-size:18px;
+    width: 75%;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 100;
+}
+.container2{
+    display: flex;
+    width: 100%;    
+    padding: 50px 0px 0px 30px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+}
+.drops{
+    display: flex;
+}
+.container2 p{
+    color: rgb(29, 29, 73);
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container2 img{
+    width: 60px;
+}
+.btnnn a{
+   text-decoration: none;
+   color: black;
+}
+.btnnn button:hover{
+    color: white;
+    background-color: purple;
+    transition: .8s;
+}
+.btnnn button a:hover{
+    color: white;
+    background-color: purple;
+    transition: .8s;
+}
+.btnnn{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+}
+.round{
+    padding-top: 50px;
+    font-family: arial;
+}
+.ii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   ;
+    
+}
+.iii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-left: 15px
+}
+.iiii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px
+}
+.rounde{
+    color: rgb(29, 29, 73);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+}
+.rounde h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.inner{
+    padding-left: 15px;
+}
+.rounde p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.ii img{
+    height:120px;
+    
+    border-radius: 50%;
+    border: 10px solid blue;
+}
+.iii img{
+    height:120px;
+    border-radius: 50%;
+    border: 10px solid purple;
+}
+.iiii img{
+    height:120px;
+    border-radius: 50%;
+    border: 10px solid rgb(126, 126, 189);
+}
+.speed{
+    color: rgb(29, 29, 73);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.busyness{
+    margin-top: 150px;
+    width: 100%;
+    padding-top: 50px;
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+    
+}
+.head5{
+    text-align: center;
+    color: #707070;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.h1{
+    text-align: center;
+    color: rgb(29, 29, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.busi-intro{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    color: rgb(29, 29, 73);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.busi-intro .text{
+    width: 70%;
+}
+div h1{
+    
+}
+.buz1::before{
+    position: absolute;
+    content: '';
+    height: 90%;
+    width: 110%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%;
+    z-index: -1;
+}
+.buz2::before{
+    position: absolute;
+    content: '';
+    height: 90%;
+    z-index: -1;
+    width: 110%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%;
+}
+.buz3::before{
+    z-index: -1;
+    position: absolute;
+    content: '';
+    height: 90%;
+    width: 110%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%;
+}
+.buz1:hover::before{
+    background-color: blue;
+}
+.buz1:hover{
+    box-shadow: 0px 0px 5px black;
+}
+.buz2:hover{
+    box-shadow: 0px 0px 5px black;
+}
+.buz3:hover{
+    box-shadow: 0px 0px 5px black;
+}
+.buz2:hover::before{
+    background-color: purple;
+}
+.buz3:hover::before{
+    background-color: rgb(126, 126, 189);
+}
+.buss-text{
+    width: 380px;
+    color: rgb(29, 29, 73);
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border: none;
+    position: relative;
+}
+
+.bus-imgs{
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+.bus-imgs h4{
+    padding-top: 25px;
+    font-weight: bolder;
+}
+.link{
+    font-size: 60px;
+    width: 60%;
+     padding-top: 180px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.pt2 h1{
+    font-size:35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.pt2 p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.pt2{
+    width: 50%;
+    padding-top: 80px;
+}
+.gov{
+    display: flex;
+}
+.ca{
+    color:rgb(107, 189, 214)
+}
+.org{
+    color: #707070;
+    font-weight: 10;
+}
+.ventures{
+    margin-top: 100px;
+}
+.button12{
+    padding-bottom: 50px;
+   display: flex;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+}
+.button12 button:hover{
+    background-color: purple;
+    color: white;
+}
+.cha{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ventures h1{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.footer{
+    padding-top: 100px;
+}
+.footnote{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footnote a{
+    color: black;
+}
+.last{
+    background: linear-gradient(77.77deg, #eff2f6 10.79%, rgba(239, 242, 246, 0) 58.53%);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+@media screen and (max-width:1023px) {
+    
+}
+@media screen and (max-width:768px){
+    .footnote{
+        flex-direction: column;
+    }
+    .quick{
+        padding-top: 30px;
+    }
+    .ventures h1{
+        text-align: center;
+        width: 95%;
+        font-size: 20px;
+    }
+    .cha{
+        flex-direction: column;
+    }
+    .gov{
+        display: flex;
+        flex-direction: column;
+    }
+    .pt2{
+        width: 100%;
+        
+    }
+    .pt2 h1{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .link{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .bus-imgs{
+        width: 100%;
+        flex-direction: column;
+    }
+    .buss{
+        padding-top: 20px;
+        width: 100%;
+    }
+    .buss img{
+        width: 100%;
+    }
+    .buss-text{
+        width: 100%;
+        font-size: 20px;
+    }
+    .head5{
+        text-align: left;
+        padding-left: 25px;
+    }
+    .h1{
+        text-align: left;
+        padding-left: 25px;
+    }
+    .busi-intro{
+        width: 100%;
+        color: rgb(29, 29, 73);
+        text-align: left;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .busi-intro .text{
+        width: 100%;
+    }
+    .speed{
+        
+        width: 100%;
+        font-size: 30px;
+        text-align: left;
+    }
+    .rounde{
+        flex-direction: column;
+    }
+    .ii{
+        
+        padding-top: 15px;
+    }
+    .iii{
+        padding-top: 20px;
+    }
+    .iiii{
+        padding-top: 20px;
+    }
+    .container1{
+        padding-top: 80px;
+        padding-left: 12px;
+        width: 100%;
+    }
+    .container1 h1{
+        
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .container2{
+        display: flex;
+        width: 100%;
+        padding-left: 10px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .create{
+        padding-top: 15px;
+    }
+    .consume{
+        padding-top: 15px;
+    }
+    .container2 img{
+        width: 50px;
+    }
+    .container2 p{
+        color: rgb(29, 29, 73);
+        padding-top: 15px;
+        font-weight: bolder;
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .container:first-child .imgmark{
+        width: 100%;
+    }
+    .sub-cont{
+       width: 100%;
+    }
+    .cont1{
+        font-size: 8px;
+    }
+    .cont2{
+        line-height: 45px;
+        font-size: 30px;
+    }
+    .cont3{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .cont4{
+        padding-top: 10px;
+    }
+    .container:first-child{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-cont{
+        width: 100%;
+    }
+    .cont2{
+        font-size: 2em;
+    }
+    .div{
+        display: block;
+        position: fixed;
+        z-index: 100000000000;
+        width: 100%;
+     }
+    nav img{
+        width: 100px;
+    }
+    .drops{
+        display: none;
+        width: 100%;
+    }
+    .nav{
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+    .toggle{
+        display: inline-flex;
+        justify-content: flex-end;
+        position: absolute;
+        left: 86%;
+    }
+    .nav{
+        position: fixed;
+        width: 100%;
+    }
+    .collapse{
+        width: 100%;
+    }
+    .div{
+        font-size: 80%;
+    }
+    .menu{
+        padding: 20px;
+        position: relative;
+    }
+    .menu::before{
+        position: absolute;
+        content: '';
+        height: 1px;
+        left: -20px;
+        width: 150%;
+        background-color: black;
+        bottom: 0;
+    }
+    .menu:nth-child(7)::after{
+        position: absolute;
+        content: "Search";
+        font-size: 20px;
+        left: 80px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (width:768px){
+    .container2{
+        display: flex;
+        padding-left: 30px;
+        width: 100%;    
+        }
+    .container:first-child div img{
+        width: 600px;
+    }
+    .container:first-child{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+    .cont1{
+        font-size: 15px;
+    }
+    .sub-cont{
+        width: 90%;
+    }
+    .cont2{
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .cont3{
+        font-size: 15px;
+    }
+    .div{
+        display: block;
+        position: fixed;
+        z-index: 100000000000;
+        width: 100%;
+     }
+    nav img{
+        width: 150px;
+    }
+    .ventures{
+      
+        height: 100vh;
+    }
+    .sec{
+        height: 100vh;
+          background: blue;
+    }
+    
+}
+@media screen and (max-width:1024px) and (min-width:770px) {
+    .footnote{
+        flex-direction: column;
+    }
+    .link{
+        font-size: 45px;
+    }
+    .bus-imgs{
+        width: 100%;
+        flex-direction: column;
+    }
+    .buss{
+        padding-top: 20px;
+        width: 100%;
+    }
+    .buss img{
+        width: 100%;
+    }
+    .buss-text{
+        width: 100%;
+        font-size: 20px;
+    }
+    .head5{
+        text-align: left;
+        padding-left: 25px;
+    }
+    .h1{
+        text-align: left;
+        padding-left: 25px;
+    }
+    .busi-intro{
+        width: 100%;
+        color: rgb(29, 29, 73);
+        text-align: left;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .busi-intro .text{
+        width: 100%;
+    }
+    .rounde{
+        flex-direction: column;
+    }
+    .cont1{
+        font-size: 10px;
+    }
+    .cont2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .cont3{
+        font-size: 15px;
+    }
+    .container:first-child{
+        padding-top: 170px;
+    }
+    .toggle{
+        display: inline-flex;
+        justify-content: flex-end;
+        position: absolute;
+        left: 86%;
+    }
+    .nav{
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+    .nav{
+        position: fixed;
+        width: 100%;
+    }
+    .menu{
+        padding: 20px;
+        position: relative;
+    }
+    .menu::before{
+        position: absolute;
+        content: '';
+        height: 1px;
+        left: -20px;
+        width: 150%;
+        background-color: black;
+        bottom: 0;
+    }
+    .menu:nth-child(7)::after{
+        position: absolute;
+        content: "Search";
+        font-size: 20px;
+        left: 10%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .drops{
+        display: none;
+    }
+    .div{
+        display: block;
+        position: fixed;
+        z-index: 100000000000;
+        width: 100%;
+     }
+}
